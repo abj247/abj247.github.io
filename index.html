@@ -230,14 +230,14 @@
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
-    <tr onmouseout="maicbf_stop()" onmouseover="maicbf_start()" bgcolor="#ffffd0">
+    <tr onmouseout="an_stop()" onmouseover="an_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='maicbf'><video  width=100% height=100% muted autoplay loop>
-          <source src="data/maze_2.mp4" type="video/mp4">
+          <div class="two" id='an'><video  width=100% height=100% muted autoplay loop>
+          <source src="data/p1.png" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='data/maicbf.png' width="160">
+          <img src='data/p1.png' width="160">
         </div>
         <script type="text/javascript">
           function maicbf_start() {
@@ -247,30 +247,22 @@
           function maicbf_stop() {
             document.getElementById('maicbf').style.opacity = "0";
           }
-          maicbf_stop()
+          an_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://maicbf.github.io/">
-			<span class="papertitle">Decentralized Safe and Scalable Multi-Agent Control under Limited Actuation
+        <a href="https://github.com/abj247/Autonomous-Navigation">
+			<span class="papertitle">Autonomous navigation of turtlebot using SLAM
 </span>
         </a>
-        <br>
-				<a href="https://vrushabh27.github.io/vrushabh_zinage/">Vrushabh Zinage</a>,
-	      <strong>Abhishek Jha</strong>,
-        <a href="https://engineering.virginia.edu/faculty/rohan-chandra">Rohan Chandra</a>, 
-				<a href="https://sites.utexas.edu/ebakolas/"> Efstathios Bakolas</a>
-				
 
-        <br>
-        <em>ICRA</em>, 2025 &nbsp <font color="red"><strong>(Under Review)</strong></font>
-        <br>
-        <a href="https://maicbf.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2409.09573">arXiv</a>
+
+
+        <a href="https://github.com/abj247/Autonomous-Navigation">code</a>
+        
         <p></p>
         <p>
-				A single decentralized control algorithm using neural ICBFs and gradient optimization that ensures safe, input-constrained, deadlock-free control of 1000+ agents in cluttered environments.
+	Autonomous navigation and trajectory planning of a robot using Robot Operating System (ROS). A maze is created in gazebo for the robot to determine the best possible trajectory with collison avoidance. Probablistic localization method is used for navigation. Adaptive Monte Carlo Localization(AMCL) node and slam_gmapping package is used for localization of robot and mapping of robot. Rviz interface is used for the simulation of robot and creating the cost map for the travel of robot.
         </p>
       </td>
     </tr>
