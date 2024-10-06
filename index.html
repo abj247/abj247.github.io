@@ -104,11 +104,11 @@
 	  <img src='data/Mean_Teacher.drawio_1.png' width="160">
 	</div>
 	<script type="text/javascript">
-	  function maicbf_start() {
+	  function pvs3_start() {
 	    document.getElementById('pvs3').style.opacity = "1";
 	  }
 
-	  function maicbf_stop() {
+	  function pvs3_stop() {
 	    document.getElementById('pvs3').style.opacity = "0";
 	  }
 	  pvs3_stop()
@@ -146,11 +146,11 @@
 	  <img src='data/Flow chart.png' width="160">
 	</div>
 	<script type="text/javascript">
-	  function maicbf_start() {
+	  function asd_start() {
 	    document.getElementById('asd').style.opacity = "1";
 	  }
 
-	  function maicbf_stop() {
+	  function asd_stop() {
 	    document.getElementById('asd').style.opacity = "0";
 	  }
 	  asd_stop()
@@ -187,11 +187,11 @@
 	  <img src='data/mrr.png' width="160">
 	</div>
 	<script type="text/javascript">
-	  function maicbf_start() {
+	  function ann_start() {
 	    document.getElementById('ann').style.opacity = "1";
 	  }
 
-	  function maicbf_stop() {
+	  function ann_stop() {
 	    document.getElementById('ann').style.opacity = "0";
 	  }
 	  ann_stop()
@@ -240,12 +240,12 @@
           <img src='data/p1.png' width="160">
         </div>
         <script type="text/javascript">
-          function maicbf_start() {
-            document.getElementById('maicbf').style.opacity = "1";
+          function an_start() {
+            document.getElementById('an').style.opacity = "1";
           }
 
-          function maicbf_stop() {
-            document.getElementById('maicbf').style.opacity = "0";
+          function an_stop() {
+            document.getElementById('an').style.opacity = "0";
           }
           an_stop()
         </script>
@@ -257,14 +257,50 @@
         </a>
 
 
-
+        <br>
         <a href="https://github.com/abj247/Autonomous-Navigation">code</a>
-        
+	  </br>
         <p></p>
         <p>
 	Autonomous navigation and trajectory planning of a robot using Robot Operating System (ROS). A maze is created in gazebo for the robot to determine the best possible trajectory with collison avoidance. Probablistic localization method is used for navigation. Adaptive Monte Carlo Localization(AMCL) node and slam_gmapping package is used for localization of robot and mapping of robot. Rviz interface is used for the simulation of robot and creating the cost map for the travel of robot.
         </p>
       </td>
+    </tr>
+
+
+   <tr onmouseout="uav_stop()" onmouseover="uav_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='uav'><video  width=100% height=100% muted autoplay loop>
+          <source src="data/p2.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data/p2.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function uav_start() {
+            document.getElementById('uav').style.opacity = "1";
+          }
+
+          function uav_stop() {
+            document.getElementById('uav').style.opacity = "0";
+          }
+          uav_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://github.com/abj247/UAV-Obstacle-Avoidance">
+			<span class="papertitle">Obstacle Avoidance of Unmanned Aerial Vehicle using LiDAR
+</span>
+        </a>
+
+
+        <br>
+        <a href="https://github.com/abj247/UAV-Obstacle-Avoidance">code</a>
+	  </br>
+        <p></p>
+        <p>
+	obstacle avoidance implemented in Robot operating system for Unmanned Aerial Vehicle (UAV) using LiDAR scan data. Hector quadrotor package is used for spawning the drone in the gazebo environment. Readings from SONAR sensor with python script is used for flying the drone to a certain height. LiDAR readings are used to detect obstacles in the surroundings.
     </tr>
              
 
@@ -277,7 +313,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  This website is created using <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
                 </p>
               </td>
             </tr>
