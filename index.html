@@ -229,8 +229,48 @@
             </tr>
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            
-    <tr onmouseout="an_stop()" onmouseover="an_start()" bgcolor="#ffffd0">
+
+     <tr onmouseout="smg_stop()" onmouseover="smg_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='smg'><video  width=100% height=100% muted autoplay loop>
+          <source src="data/smg1.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data/smg1.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function smg_start() {
+            document.getElementById('uav').style.opacity = "1";
+          }
+
+          function smg_stop() {
+            document.getElementById('uav').style.opacity = "0";
+          }
+          smg_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://github.com/abj247/UAV-Obstacle-Avoidance">
+			<span class="papertitle">Obstacle Avoidance of Unmanned Aerial Vehicle using LiDAR
+</span>
+        </a>
+
+
+        <br>
+	 <strong> Supervisor:</strong> <a href="https://engineering.virginia.edu/faculty/rohan-chandra">Rohan Chandra</a>
+	      /
+        <a href="https://github.com/abj247/SMGLib">Code</a>
+	  </br>
+        <p></p>
+        <p>
+	A Benchmark and Survey of Deadlock Resolution in Multi-Robot Navigation in Social Mini-Games
+    </tr>
+          
+
+
+		  
+    <tr onmouseout="an_stop()" onmouseover="an_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='an'><video  width=100% height=100% muted autoplay loop>
@@ -300,8 +340,11 @@
 	  </br>
         <p></p>
         <p>
-	obstacle avoidance implemented in Robot operating system for Unmanned Aerial Vehicle (UAV) using LiDAR scan data. Hector quadrotor package is used for spawning the drone in the gazebo environment. Readings from SONAR sensor with python script is used for flying the drone to a certain height. LiDAR readings are used to detect obstacles in the surroundings.
+	Obstacle avoidance implemented in Robot operating system for Unmanned Aerial Vehicle (UAV) using LiDAR scan data. Hector quadrotor package is used for spawning the drone in the gazebo environment. Readings from SONAR sensor with python script is used for flying the drone to a certain height. LiDAR readings are used to detect obstacles in the surroundings.
     </tr>
+
+
+ 
              
 
           
