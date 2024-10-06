@@ -94,7 +94,7 @@
       </td>
     </tr>
 
- <tr onmouseout="pvs3_stop()" onmouseover="pvs3_start()" bgcolor="#ffffd0">
+ <tr onmouseout="pvs3_stop()" onmouseover="pvs3_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
 	<div class="one">
 	  <div class="two" id='pvs3'><video  width=100% height=100% muted autoplay loop>
@@ -132,6 +132,48 @@
 	<p></p>
 	<p>
 				A semi-supervised segmentation model (PV-S3) that detects defects in photovoltaic EL images using only 20% labeled data, outperforming state-of-the-art supervised methods and reducing annotation costs by 80%.
+	</p>
+      </td>
+    </tr>
+
+   <tr onmouseout="asd_stop()" onmouseover="asd_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+	<div class="one">
+	  <div class="two" id='asd'><video  width=100% height=100% muted autoplay loop>
+	  <source src="data/Flow Chart.png" type="video/mp4">
+	  Your browser does not support the video tag.
+	  </video></div>
+	  <img src='data/Flow Chart.png' width="160">
+	</div>
+	<script type="text/javascript">
+	  function maicbf_start() {
+	    document.getElementById('asd').style.opacity = "1";
+	  }
+
+	  function maicbf_stop() {
+	    document.getElementById('asd').style.opacity = "0";
+	  }
+	  asd_stop()
+	</script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+	<a href="https://ieeexplore.ieee.org/xpl/conhome/10370004/proceeding">
+			<span class="papertitle">Diagnosis support model for Autism spectrum disorder using Neuroimaging data and Xception
+</span>
+	</a>
+	<br>
+				<strong>Abhishek Jha</strong>,
+	<a href="">Kainat Khan</a>, 
+				<a href=""> Rahul Katarya</a>
+				
+
+	<br>
+	<em>2023 ELEXCOM</em>, 2023
+	<br>
+	<a href="https://ieeexplore.ieee.org/xpl/conhome/10370004/proceeding">paper</a>
+	<p></p>
+	<p>
+				A transfer learning model using the Xception ConvNet predicts autism from resting-state fMRI scans, demonstrating the feasibility of early diagnosis through deep learning on brain imaging data.
 	</p>
       </td>
     </tr>
