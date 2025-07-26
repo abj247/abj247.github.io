@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
+  <script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+  </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Abhishek Jha</title>
@@ -9,10 +14,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="data/click.ico type= type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
+
+  	<div class="dark-mode-toggle">
+        	<label class="switch">
+            		<input type="checkbox" onclick="toggleDarkMode()">
+			<span class="slider round"></span>
+        	</label>
+    	</div>
+	  
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -321,7 +334,7 @@ Deadlock-Free Multi-Agent Navigation in Social Mini-Games
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
-     <tr onmouseout="smg_stop()" onmouseover="smg_start()>
+     <tr onmouseout="smg_stop()" onmouseover="smg_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='smg'><video  width=100% height=100% muted autoplay loop>
