@@ -65,7 +65,7 @@
 }
 
 a {
-  color: #1772d0;
+  color: #361cfd;
   text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ body.dark-mode a {
 
 body.dark-mode a:focus, 
 body.dark-mode a:hover {
-    color: #ff3300; 
+    color: #55ff00; 
     text-decoration: none;
 }
  
@@ -154,12 +154,12 @@ body.dark-mode {
     color: #ffffff;
 }
 body.dark-mode a {
-    color: #ff0000;
+    color: #99ff66;
 }
 
 body.dark-mode a:focus, 
 body.dark-mode a:hover {
-    color: #ff3300; 
+    color: #55ff00; 
     text-decoration: none;
 }
 
