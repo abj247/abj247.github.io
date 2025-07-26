@@ -65,7 +65,7 @@
 }
 
 a {
-  color: #361cfd;
+  color: #391ffd;
   text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ body.dark-mode {
     color: #ffffff;
 }
 body.dark-mode a {
-    color: #ff000;
+    color: #99ff66;
 }
 
 body.dark-mode a:focus, 
