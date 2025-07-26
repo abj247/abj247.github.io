@@ -140,7 +140,7 @@ body.dark-mode {
     color: #ffffff;
 }
 body.dark-mode a {
-    color: #99ff66;
+    color: #66ff33;
 }
 
 body.dark-mode a:focus, 
@@ -149,20 +149,6 @@ body.dark-mode a:hover {
     text-decoration: none;
 }
  
-body.dark-mode {
-    background-color: #000000;
-    color: #ffffff;
-}
-body.dark-mode a {
-    color: #99ff66;
-}
-
-body.dark-mode a:focus, 
-body.dark-mode a:hover {
-    color: #55ff00; 
-    text-decoration: none;
-}
-
 
 /* Toggle Switch Container */
 .dark-mode-toggle {
