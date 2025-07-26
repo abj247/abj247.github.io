@@ -176,7 +176,7 @@ body.dark-mode a:hover {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background-color 0.4s ease;
+/*   transition: background-color 0.4s ease; */
   box-shadow: none; 
 }
 /* Hide native checkbox input */
@@ -202,7 +202,7 @@ body.dark-mode a:hover {
 .slider:before {
   content: "☀️";
   font-size: 20px;
-  transition: transform 0.3s ease, content 0.3s ease, color 0.3s ease;
+/*   transition: transform 0.3s ease, content 0.3s ease, color 0.3s ease; */
   color: white;
   display: inline-block;
 }
@@ -214,5 +214,5 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   content: "🌙";
-  color: #000;
+/*   color: #000; */
 }
