@@ -140,12 +140,12 @@ body.dark-mode {
     color: #ffffff;
 }
 body.dark-mode a {
-    color: #ffb764;
+    color: #ff000;
 }
 
 body.dark-mode a:focus, 
 body.dark-mode a:hover {
-    color: #ffee00; 
+    color: #ff3300; 
     text-decoration: none;
 }
  
@@ -154,12 +154,12 @@ body.dark-mode {
     color: #ffffff;
 }
 body.dark-mode a {
-    color: #ffb764;
+    color: #ff0000;
 }
 
 body.dark-mode a:focus, 
 body.dark-mode a:hover {
-    color: #ffee00; 
+    color: #ff3300; 
     text-decoration: none;
 }
 
