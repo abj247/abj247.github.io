@@ -112,7 +112,7 @@ I work on building robots and learning agents that can act in the real world. My
         <a href="https://openreview.net/pdf?id=l4bLv71FaG">paper</a>
         <p></p>
         <p>
-			Studies whether maintaining K parallel critic heads improves exploration in online reinforcement learning, using head disagreement as an exploration signal and analyzing the trade-offs across environments.
+			Extends ensemble-based exploration to generative policies based on diffusion and flow matching, where the standard bootstrapped-heads template collapses because Q-weighted importance weights are identical across heads. Introduces ESAC, which pairs each generative head with its own Q-network to restore diversity, and TIDE, an action-selection rule that scores candidates by ensemble disagreement integrated across the full denoising trajectory. On MuJoCo locomotion with diffusion and conditional flow matching backbones, ESAC delivers consistent multi-seed gains over its soft diffusion actor-critic backbone, with the largest gains on tasks where directed exploration matters most.
         </p>
       </td>
     </tr>
