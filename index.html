@@ -112,7 +112,7 @@ I work on building robots and learning agents that can act in the real world. My
         <a href="https://openreview.net/pdf?id=l4bLv71FaG">paper</a>
         <p></p>
         <p>
-			Extends ensemble-based exploration to generative policies based on diffusion and flow matching, where the standard bootstrapped-heads template collapses because Q-weighted importance weights are identical across heads. Introduces ESAC, which pairs each generative head with its own Q-network to restore diversity, and TIDE, an action-selection rule that scores candidates by ensemble disagreement integrated across the full denoising trajectory. On MuJoCo locomotion with diffusion and conditional flow matching backbones, ESAC delivers consistent multi-seed gains over its soft diffusion actor-critic backbone, with the largest gains on tasks where directed exploration matters most.
+			Introduces ESAC, an ensemble framework for diffusion and flow-matching policies that pairs each generative head with its own Q-network to prevent head collapse under Q-weighted losses, together with TIDE, an action-selection rule that scores candidates by ensemble disagreement integrated across the full denoising trajectory, delivering consistent multi-seed gains on MuJoCo locomotion.
         </p>
       </td>
     </tr>
