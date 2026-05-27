@@ -437,6 +437,78 @@ Deadlock-Free Multi-Agent Navigation in Social Mini-Games
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
+     <tr onmouseout="esac_proj_stop()" onmouseover="esac_proj_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='esac_proj'><img src="data/esac.gif" width="100%"></div>
+          <img src='data/esac.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function esac_proj_start() {
+            document.getElementById('esac_proj').style.opacity = "1";
+          }
+
+          function esac_proj_stop() {
+            document.getElementById('esac_proj').style.opacity = "0";
+          }
+          esac_proj_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+			<span class="papertitle">Ensemble Soft Actor Critic
+</span>
+        </a>
+
+
+        <br>
+	 <strong>Supervisor:</strong> <a href="https://cims.nyu.edu/~rajeshr/">Prof. Rajesh Ranganath</a>
+        <br>
+        <a href="https://github.com/abj247/Bootflow">Code</a>
+	  </br>
+        <p></p>
+        <p>
+		An ensemble framework for generative RL policies that pairs each generative head with its own Q-network to prevent head collapse under Q-weighted losses, together with an ensemble disagreement action-selection rule delivering consistent multi-seed gains on MuJoCo locomotion.
+        </p>
+      </td>
+    </tr>
+
+
+     <tr onmouseout="vlmnav_stop()" onmouseover="vlmnav_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='vlmnav'><img src="data/vlm-nav.png" width="100%"></div>
+          <img src='data/vlm-nav.png' width="160" height="160" style="object-fit:cover;object-position:top;">
+        </div>
+        <script type="text/javascript">
+          function vlmnav_start() {
+            document.getElementById('vlmnav').style.opacity = "1";
+          }
+
+          function vlmnav_stop() {
+            document.getElementById('vlmnav').style.opacity = "0";
+          }
+          vlmnav_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+			<span class="papertitle">Visual Subgoal Planning for Long Horizon Robot Navigation
+</span>
+        </a>
+
+
+        <br>
+	 <strong>Supervisor:</strong> <a href="https://cs.nyu.edu/~fouhey/">Prof. David Fouhey</a>
+        <br>
+        <a href="https://github.com/abj247/vlm-nav">Code</a>
+	  </br>
+        <p></p>
+        <p>
+		A hierarchical visual navigation system that plans long-horizon indoor goals from natural-language instructions, using a small vision-language model to encode the current observation and goal text into query tokens, a ColBERT-style late-interaction re-ranker to pick the next visual subgoal from a precomputed topological graph, and a frozen NoMaD diffusion policy to execute it. Benchmarked across vision-language backbones from 256M to 10B parameters.
+        </p>
+      </td>
+    </tr>
+
+
      <tr onmouseout="smg_stop()" onmouseover="smg_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -515,80 +587,8 @@ Deadlock-Free Multi-Agent Navigation in Social Mini-Games
     </tr>
 
 
-   <tr onmouseout="uav_stop()" onmouseover="uav_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='uav'><video  width=100% height=100% muted autoplay loop>
-          <source src="data/p2.png" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='data/p2.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function uav_start() {
-            document.getElementById('uav').style.opacity = "1";
-          }
-
-          function uav_stop() {
-            document.getElementById('uav').style.opacity = "0";
-          }
-          uav_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-<!--         <a href="https://github.com/abj247/UAV-Obstacle-Avoidance"> -->
-			<span class="papertitle">Obstacle Avoidance of Unmanned Aerial Vehicle using LiDAR
-</span>
-        </a>
 
 
-        <br>
-        <a href="https://github.com/abj247/UAV-Obstacle-Avoidance">Code</a>
-	  </br>
-        <p></p>
-        <p>
-	Obstacle avoidance implemented in Robot operating system for Unmanned Aerial Vehicle (UAV) using LiDAR scan data. Hector quadrotor package is used for spawning the drone in the gazebo environment. Readings from SONAR sensor with python script is used for flying the drone to a certain height. LiDAR readings are used to detect obstacles in the surroundings.
-    </tr>
-
-
-     <tr onmouseout="pp_stop()" onmouseover="pp_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='pp'><video  width=100% height=100% muted autoplay loop>
-          <source src="data/p3.png" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='data/p3.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function pp_start() {
-            document.getElementById('pp').style.opacity = "1";
-          }
-
-          function pp_stop() {
-            document.getElementById('pp').style.opacity = "0";
-          }
-          pp_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-<!--         <a href="https://github.com/abj247/Path-Planninge"> -->
-			<span class="papertitle">Path Planning of 2D point robot using discrete motion planning algorithms
-</span>
-        </a>
-
-
-        <br>
-        <a href="https://github.com/abj247/Path-Planning">Code</a>
-	  </br>
-        <p></p>
-        <p>
-	 Path planning of point robot for finding shortest path between start and goal position. Implemented Informed and Uninformed search algorithms for the path planning problem. A random 2D enivronment is created with obstacles for evealuation of searching algorithms. A* and Dijkstras algorithm is implemented for obtaining the shortest path. Investigated the perofrmance by implementing other search based algorithms such as Best first, Depth First and Breadth First for finding the shortest distance. Given below are the images of search done by the various algorithms.
-    </tr>
-
-
- 
-             
 
           
          
