@@ -509,6 +509,44 @@ Deadlock-Free Multi-Agent Navigation in Social Mini-Games
     </tr>
 
 
+     <tr onmouseout="vicreg_stop()" onmouseover="vicreg_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='vicreg'><img src="data/vicreg.png" width="100%"></div>
+          <img src='data/vicreg.png' width="160" height="160" style="object-fit:contain;">
+        </div>
+        <script type="text/javascript">
+          function vicreg_start() {
+            document.getElementById('vicreg').style.opacity = "1";
+          }
+
+          function vicreg_stop() {
+            document.getElementById('vicreg').style.opacity = "0";
+          }
+          vicreg_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+			<span class="papertitle">Self-Supervised Learning Using VICReg
+</span>
+        </a>
+
+
+        <br>
+	 <strong>Supervisor:</strong> <a href="https://atcold.github.io/">Prof. Alfredo Canziani</a>, <a href="http://yann.lecun.com/">Prof. Yann LeCun</a>
+        <br>
+        <a href="https://github.com/sd6701-droid/vicreg/tree/new-ds">Code</a> /
+        <a href="https://samprasdsouza.github.io/DL-SSL-Project-report.pdf">Project Report</a> /
+        <a href="https://drive.google.com/file/d/1MYeWUdCXbHdeSAWSl82drUu3ZRVrRBdj/view">Demo Video</a>
+	  </br>
+        <p></p>
+        <p>
+		Pretrained VICReg-based self-supervised models on a 700K-image custom dataset using ResNet-50×2 with large-batch LARS training (batch size 1024) for stable non-contrastive SSL. Tuned augmentations and the variance/invariance/covariance loss coefficients to prevent representation collapse, then evaluated representations via linear probing and finetuning on downstream image classification under ImageNet-style constraints.
+        </p>
+      </td>
+    </tr>
+
+
      <tr onmouseout="smg_stop()" onmouseover="smg_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
