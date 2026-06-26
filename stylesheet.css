@@ -100,7 +100,78 @@ h2 {
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+  font-weight: 600;
+}
+
+.papertitle a, a.papertitle-link {
+  color: #1772d0;
+}
+
+.papertitle a:hover, a.papertitle-link:hover {
+  color: #f09228;
+}
+
+.venue {
+  color: #38b000;
+  font-style: italic;
   font-weight: 700;
+}
+
+.year-heading {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 24px 0 6px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  padding-top: 6px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  color: #333;
+  margin-right: 18px;
+  transition: transform 0.15s ease-in-out, color 0.15s ease-in-out;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  color: #f09228;
+  transform: scale(1.15);
+}
+
+.contact-email {
+  font-family: 'Lato', monospace;
+  font-size: 14px;
+}
+
+.edu-row td {
+  padding: 16px 20px;
+  vertical-align: middle;
+}
+
+.edu-logo {
+  width: 90px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.edu-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.edu-degree {
+  color: #555;
+}
+
+.edu-date {
+  color: #777;
+  font-size: 13px;
 }
 
 .name {
@@ -152,6 +223,40 @@ body.dark-mode a:focus,
 body.dark-mode a:hover {
   color: #66ccff;
   text-decoration: none;
+}
+
+body.dark-mode .papertitle a,
+body.dark-mode a.papertitle-link {
+  color: #6bb6ff;
+}
+
+body.dark-mode .papertitle a:hover,
+body.dark-mode a.papertitle-link:hover {
+  color: #ffee00;
+}
+
+body.dark-mode .venue {
+  color: #6ce06c;
+}
+
+body.dark-mode .social-icons a {
+  color: #ffffff;
+}
+
+body.dark-mode .social-icons a:hover {
+  color: #ffee00;
+}
+
+body.dark-mode .edu-degree {
+  color: #bbb;
+}
+
+body.dark-mode .edu-date {
+  color: #999;
+}
+
+body.dark-mode .year-heading {
+  border-bottom-color: #444;
 }
 
 /* ------------------------------------------
