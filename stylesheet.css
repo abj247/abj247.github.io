@@ -261,16 +261,6 @@ body.dark-mode .year-heading {
   border-bottom-color: #444;
 }
 
-/* In dark mode, the DTU seal has a cream/white paper background that
-   looks like a blocky white tile on black. Wrap every edu logo in a
-   subtle white rounded panel so DTU blends in and NYU looks intentional. */
-body.dark-mode .edu-logo {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 8px;
-  box-sizing: border-box;
-}
-
 /* ------------------------------------------
    DARK MODE TOGGLE BUTTON STYLES
 ------------------------------------------ */
