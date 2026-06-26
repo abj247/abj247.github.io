@@ -127,13 +127,14 @@ h2 {
 }
 
 .social-icons {
-  padding-top: 6px;
+  margin-top: 2px;
+  margin-bottom: 0;
 }
 
 .social-icons a {
-  font-size: 28px;
+  font-size: 40px;
   color: #333;
-  margin-right: 18px;
+  margin: 0 10px;
   transition: transform 0.15s ease-in-out, color 0.15s ease-in-out;
   display: inline-block;
 }
@@ -144,8 +145,9 @@ h2 {
 }
 
 .contact-email {
-  font-family: 'Lato', monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
+  margin-bottom: 4px;
 }
 
 .edu-row td {
